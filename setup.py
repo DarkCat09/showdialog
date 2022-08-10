@@ -5,7 +5,7 @@ with open('README.md', 'rt') as f:
 
 setuptools.setup(
     name='showdialog',
-    version='1.0.0',
+    version='1.0.1',
     author='Chechkenev Andrey (@DarkCat09)',
     author_email='aacd0709@mail.ru',
     description='Simple module for showing GTK dialog',

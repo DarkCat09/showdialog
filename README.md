@@ -12,11 +12,11 @@ pip install showdialog
 Opens GTK MessageDialog
 
 #### Args
-title (`str`): Dialog caption
-text (`Union[Tuple[Optional[str], bool], Optional[str]]`): Dialog primary text, str or tuple `(text, use_markup)`
-sectext (`Union[Tuple[Optional[str], bool], Optional[str]]`, optional): Dialog secondary text, str or tuple. Defaults to `None`.
-btns (`Gtk.ButtonsType`, optional): Dialog buttons. Defaults to `Gtk.ButtonsType.OK`.
-msgtype (`Gtk.MessageType`, optional): Dialog message type. Defaults to `Gtk.MessageType.INFO`.
+- title (`str`): Dialog caption
+- text (`Union[Tuple[Optional[str], bool], Optional[str]]`): Dialog primary text, str or tuple `(text, use_markup)`
+- sectext (`Union[Tuple[Optional[str], bool], Optional[str]]`, optional): Dialog secondary text, str or tuple. Defaults to `None`.
+- btns (`Gtk.ButtonsType`, optional): Dialog buttons. Defaults to `Gtk.ButtonsType.OK`.
+- msgtype (`Gtk.MessageType`, optional): Dialog message type. Defaults to `Gtk.MessageType.INFO`.
 
 #### Example:
 ```python
