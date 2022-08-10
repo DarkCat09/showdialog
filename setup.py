@@ -12,10 +12,11 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     classifiers=[
-        'Development Status :: 6 - Stable',
+        'Development Status :: 5 - Production/Stable',
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT',
-        'Operating System :: OS Independent'
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+        'Environment :: X11 Applications :: GTK'
     ],
     install_requires=[
         'PyGObject>=3.42.2'
